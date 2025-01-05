@@ -100,10 +100,23 @@ img {
 }
 
 
+/* projects */
+.projects ul li a {
+    padding: 10px 20px;
+    display: block;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.projects ul li:hover {
+    background-color: #81BFDA;
+}
 
 
-
-
+.prj-info {
+    padding: 0 30px;
+    font-size: 15px;
+}
 
 
 /* containers */
@@ -119,4 +132,19 @@ img {
     padding: 310px 350px;
     align-items: center;
     justify-content: center;
+}
+
+.contact-container {
+    padding: 0 10px;
+    display: flex;
+    margin: 0 auto;
+    max-width: 1000px;
+    justify-content: space-between;
+}
+
+.prj-container {
+    background-color: var(--bkg_col);
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
