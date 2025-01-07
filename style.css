@@ -112,10 +112,18 @@ img {
     background-color: #81BFDA;
 }
 
+.prj-container ul li a {
+    display: flex;
+}
 
-.prj-info {
-    padding: 0 30px;
-    font-size: 15px;
+.prj-skill {
+    box-sizing: content-box;
+    border-style: initial;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: var(--font_col);
+    margin: 0 10px;
+    padding: 10px 10px;
 }
 
 
@@ -143,8 +151,8 @@ img {
 }
 
 .prj-container {
-    background-color: var(--bkg_col);
+    border-color: var(--font_col);
     max-width: 1000px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 10px 20px;
 }
